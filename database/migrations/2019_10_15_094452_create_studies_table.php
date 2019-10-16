@@ -23,7 +23,7 @@ class CreateStudiesTable extends Migration
             $table->json('oversight_info')->nullable();
             $table->text('brief_summary')->nullable();
             $table->text('detailed_description')->nullable();
-            $table->boolean('status')->nullable();
+            $table->string('status')->nullable();
             $table->date('start_date')->nullable();
             $table->date('completion_date')->nullable();
             $table->string('phase')->nullable();
